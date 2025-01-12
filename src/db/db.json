@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "12a6fae1-5e45-4b18-b2a0-2905da8e300e",
+    "name": "Mr. Don Runte",
+    "phone": "674-211-0854 x9080",
+    "email": "Karen16@hotmail.com",
+    "job": "Direct Accountability Administrator"
+  },
+  {
+    "id": "053f9be7-e433-4935-890d-e2ecff11a036",
+    "name": "Felipe Hodkiewicz",
+    "phone": "1-949-210-6406 x3163",
+    "email": "Salvatore76@hotmail.com",
+    "job": "Dynamic Directives Officer"
+  },
+  {
+    "id": "fccc4177-c930-49f7-906a-c9cd6423bced",
+    "name": "Karen Hirthe",
+    "phone": "1-427-204-4868",
+    "email": "Mireya.Medhurst@yahoo.com",
+    "job": "Central Data Developer"
+  },
+  {
+    "id": "78dcad73-0b73-4acb-9459-44be10c966ed",
+    "name": "Ida Ritchie",
+    "phone": "1-911-837-6773 x76499",
+    "email": "Jaycee71@gmail.com",
+    "job": "Dynamic Web Administrator"
+  },
+  {
+    "id": "cb88f7d3-a09b-443d-b073-2c0bec4fbb87",
+    "name": "Mrs. Janis Vandervort",
+    "phone": "(276) 898-0643 x5847",
+    "email": "Carrie.Howe16@gmail.com",
+    "job": "Internal Markets Specialist"
+  }
+]

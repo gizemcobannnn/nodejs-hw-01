@@ -1,4 +1,4 @@
-import fs from 'fs/promises';   
+import fs from 'fs';   
 import { PATH_DB } from '../constants/contacts.js';
 import { getAllContacts } from './getAllContacts.js';
 export const removeLastContact = async () => {
@@ -8,7 +8,7 @@ export const removeLastContact = async () => {
         contacts.pop();
     }
 
-    await fs.writeFile(PATH_DB, JSON.stringify(contacts, null, 2), 'utf-8');
+    await fs.promises.writeFile(PATH_DB, JSON.stringify(contacts, null, 2), 'utf-8');
 
 };
 
