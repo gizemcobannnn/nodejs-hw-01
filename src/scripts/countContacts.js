@@ -5,7 +5,7 @@ export const countContacts = async () => {
     const contacts = await fs.promises.readFile(PATH_DB,'utf-8');
     const contactsObject = JSON.parse(contacts);
 
-    return contactsObject.length();
+    return contactsObject.length;
 };
 
-console.log(countContacts());
+console.log( await countContacts());
