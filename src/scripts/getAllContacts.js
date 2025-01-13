@@ -1,4 +1,4 @@
-import { PATH_DB } from "../constants/contacts";
+import { PATH_DB } from "../constants/contacts.js";
 import fs from 'fs';
 
 export const getAllContacts = async () => {
@@ -6,4 +6,4 @@ export const getAllContacts = async () => {
     return JSON.parse(contacts);
 };
 
-console.log( getAllContacts());
+console.log( await getAllContacts());
